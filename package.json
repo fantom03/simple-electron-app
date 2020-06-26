@@ -1,0 +1,20 @@
+{
+  "name": "simple-electron-app",
+  "version": "1.0.0",
+  "description": "A basic application to understand electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --config custom-build.json",
+    "release": "electron-builder --config custom-release.json -p always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "electron": "^9.0.5",
+    "electron-builder": "^22.7.0"
+  },
+  "dependencies": {}
+}

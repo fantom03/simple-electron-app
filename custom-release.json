@@ -1,0 +1,22 @@
+{
+    "appId": "com.electron.simpleapp",
+    "productName": "Simple Electron App",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icons/installer.ico",
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "fantom03",
+      "repo": "simple-electron-app",
+      "releaseType": "release",
+      "publishAutoUpdate": true
+    }
+  }
