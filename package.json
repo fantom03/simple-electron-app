@@ -16,5 +16,13 @@
     "electron": "^9.0.5",
     "electron-builder": "^22.7.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantom03/simple-electron-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fantom03/simple-electron-app/issues"
+  },
+  "homepage": "https://github.com/fantom03/simple-electron-app#readme"
 }
